@@ -1,0 +1,179 @@
+:root {
+  // Шрифты
+  --font-main: Arial, sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1440px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #fff; // бекграунд страницы
+  --blue: #68c8ee;
+  --black: #000;
+  --white: #fff;
+
+  --hover: #51b1d6; // цвет при ховере
+  --active: #3994b8; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 200px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 160px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 120px;
+    }
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+ 
+.tt-52-28 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.2;
+
+  @media (max-width: 1440px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.tt-46-26 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.2;
+ 
+  @media (max-width: 1220px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 26px;
+  }
+}
+
+.tt-32-22 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+ 
+  @media (max-width: 991px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 22px;
+  }
+}
+
+.tx-16-14 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-20-16 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  background-color: var(--blue);
+  width: fit-content;
+  min-height: 60px;
+  min-width: 200px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--white);
+  transition: background-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}

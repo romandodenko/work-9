@@ -1,0 +1,287 @@
+:root {
+  // Шрифты
+  --font-main: "Inter", sans-serif; // 1 шрифт на странице
+  --font-second: "RobotoCondensed", sans-serif; // 2 шрифт на странице
+  --font-third: "Roboto", sans-serif; // 3 шрифт на странице
+   
+  // Контейнер
+  --container-width: 1180px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #ECEFF2; // бекграунд страницы
+  --blue: #0098ff;
+  --l-blue: #5EBBFA;
+  --black: #000000;
+  --main: #000000;
+  --white: #ffffff;
+  --dark: #2B2B2B;
+  --dark2: #505050;
+  --gray: #eceff2;
+  --background-header: #ecf2f2;
+  --background-footer: #2b2b2b;
+  --background-hero: #161F38;
+  --white2: #f7f8fa;
+  --white3: #f5f5f5;
+  --error: #ff0069;
+
+  --hover: #0098ff; // цвет при ховере
+  --active: #0590ec; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+  position: relative;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tt-64-36 {
+  font-family: var(--font-second);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #0098ff 0%, #ff0069 69.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @media (max-width: 1220px) {
+    font-size: 52px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 44px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 36px;
+  }
+}
+
+.tt-48-30 {
+  font-family: var(--font-second);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+  @media (max-width: 991px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 30px;
+  }
+}
+
+.tx-14 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 129%;
+}
+
+.tx-18-14 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+
+  @media (max-width: 991px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-20-16 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 167%;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.tx-24-18 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+
+  @media (max-width: 991px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  font-family: var(--font-second);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
+  background: linear-gradient(90deg, #0098ff 0%, #0198ff 0.39%, #0197fe 0.78%, #0396fd 1.17%, #0496fd 1.56%, #0695fc 1.95%, #0794fb 2.34%, #0993fa 2.73%, #0a92f9 3.12%, #0c91f8 3.52%, #0d90f7 3.91%, #0f8ff6 4.3%, #108ef6 4.69%, #128ef5 5.08%, #138df4 5.47%, #158cf3 5.86%, #168bf2 6.25%, #178af1 6.64%, #1989f0 7.03%, #1a88ef 7.42%, #1c87ef 7.81%, #1d86ee 8.2%, #1f86ed 8.59%, #2085ec 8.98%, #2284eb 9.38%, #2383ea 9.77%, #2582e9 10.16%, #2681e8 10.55%, #2880e8 10.94%, #297fe7 11.33%, #2b7ee6 11.72%, #2c7ee5 12.11%, #2e7de4 12.5%, #2f7ce3 12.89%, #317be2 13.28%, #327ae1 13.67%, #3479e0 14.06%, #3578e0 14.45%, #3777df 14.84%, #3876de 15.23%, #3a76dd 15.62%, #3b75dc 16.02%, #3d74db 16.41%, #3e73da 16.8%, #4072d9 17.19%, #4171d9 17.58%, #4370d8 17.97%, #446fd7 18.36%, #466ed6 18.75%, #476ed5 19.14%, #496dd4 19.53%, #4a6cd3 19.92%, #4c6bd2 20.31%, #4d6ad2 20.7%, #4f69d1 21.09%, #5068d0 21.48%, #5267cf 21.88%, #5366ce 22.27%, #5565cd 22.66%, #5665cc 23.05%, #5864cb 23.44%, #5963cb 23.83%, #5b62ca 24.22%, #5c61c9 24.61%, #5e60c8 25%, #5f5fc7 25.39%, #615ec6 25.78%, #625dc5 26.17%, #645dc4 26.56%, #655cc3 26.95%, #675bc3 27.34%, #685ac2 27.73%, #6a59c1 28.12%, #6b58c0 28.52%, #6d57bf 28.91%, #6e56be 29.3%, #7055bd 29.69%, #7155bc 30.08%, #7354bc 30.47%, #7453bb 30.86%, #7652ba 31.25%, #7751b9 31.64%, #7950b8 32.03%, #7a4fb7 32.42%, #7c4eb6 32.81%, #7d4db5 33.2%, #7f4db5 33.59%, #804cb4 33.98%, #824bb3 34.38%, #834ab2 34.77%, #8549b1 35.16%, #8648b0 35.55%, #8847af 35.94%, #8946ae 36.33%, #8a45ae 36.72%, #8c45ad 37.11%, #8d44ac 37.5%, #8f43ab 37.89%, #9042aa 38.28%, #9241a9 38.67%, #9340a8 39.06%, #953fa7 39.45%, #963ea6 39.84%, #983da6 40.23%, #993da5 40.62%, #9b3ca4 41.02%, #9c3ba3 41.41%, #9e3aa2 41.8%, #9f39a1 42.19%, #a138a0 42.58%, #a2379f 42.97%, #a4369f 43.36%, #a5359e 43.75%, #a7359d 44.14%, #a8349c 44.53%, #aa339b 44.92%, #ab329a 45.31%, #ad3199 45.7%, #ae3098 46.09%, #b02f98 46.48%, #b12e97 46.88%, #b32d96 47.27%, #b42d95 47.66%, #b62c94 48.05%, #b72b93 48.44%, #b92a92 48.83%, #ba2991 49.22%, #bc2891 49.61%, #bd2790 50%, #bf268f 50.39%, #c0258e 50.78%, #c2248d 51.17%, #c3248c 51.56%, #c5238b 51.95%, #c6228a 52.34%, #c8218a 52.73%, #c92089 53.12%, #cb1f88 53.52%, #cc1e87 53.91%, #ce1d86 54.3%, #cf1c85 54.69%, #d11c84 55.08%, #d21b83 55.47%, #d41a82 55.86%, #d51982 56.25%, #d71881 56.64%, #d81780 57.03%, #da167f 57.42%, #db157e 57.81%, #dd147d 58.2%, #de147c 58.59%, #e0137b 58.98%, #e1127b 59.38%, #e3117a 59.77%, #e41079 60.16%, #e60f78 60.55%, #e70e77 60.94%, #e90d76 61.33%, #ea0c75 61.72%, #ec0c74 62.11%, #ed0b74 62.5%, #ef0a73 62.89%, #f00972 63.28%, #f20871 63.67%, #f30770 64.06%, #f5066f 64.45%, #f6056e 64.84%, #f8046d 65.23%, #f9046d 65.62%, #fb036c 66.02%, #fc026b 66.41%, #fe016a 66.8%, #ff0069 67.19%, #ff0069 68.75%, #ff0069 75%, #ff0069 100%);
+  width: fit-content;
+  border-radius: 12px;
+  min-width: 158px;
+  min-height: 46px;
+  transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      transform: translateX(1px);
+    }
+  }
+
+  &:focus-visible {
+    transform: translateX(1px);
+  }
+
+  &:active {
+    transform: translateX(1px);
+    transition-duration: .1s;
+  }
+
+  &_border-button {
+    font-family: var(--font-third);
+    font-style: normal;
+    text-transform: none;
+    border: 1px solid var(--blue);
+    font-size: 18px;
+    color: var(--blue);
+    box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    background: transparent;
+  }
+}
+
+.input {
+  display: block;
+  border-radius: 30px;
+  width: 100%;
+  min-height: 69px;
+  padding: 0 41px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--black);
+  background-color: var(--gray);
+  border: 1px solid transparent;
+  transition: border-color .3s ease-in-out;
+
+  @media (max-width: 991px) {
+    padding: 0 24px;
+    min-height: 60px;
+  }
+
+  @media (max-width: 600px) { 
+    min-height: 54px;
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: var(--hover);
+
+      &::placeholder {
+        opacity: 1;
+        color: var(--hover);
+      }
+    }
+  }
+
+  &:focus-visible {
+    border-color: var(--hover);
+
+    &::placeholder {
+      opacity: 1;
+      color: var(--hover);
+    }
+  }
+
+  &::placeholder {
+    opacity: .5;
+    color: var(--black);
+    transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  }
+}
+
+.logo {
+  width: 161px;
+  height: 34px;
+
+  @media (max-width: 991px) {
+    width: 130px;
+    height: 28px;
+  }
+
+  @media (max-width: 600px) {
+    width: 100px;
+    height: 22px;
+  }
+
+  & img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+#valid-msg {
+  display: none;
+  color: var(--green);
+}

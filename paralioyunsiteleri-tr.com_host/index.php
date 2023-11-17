@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yüksek derecelendirmeye ve yüksek güvenliğe sahip mükemmel 5 yıldızlı otel">
+  <meta property="og:site_name"
+    content="Lara Barut Collection, Türkiye kıyılarında aile tatilleri, romantik kaçamaklar ve aktif tatiller için mükemmel bir yerdir. Otel, her türden gezgin için lüks, rahatlık ve çeşitli aktiviteleri bir araya getirmektedir.">
+  <meta name="twitter:title" content="Yüksek derecelendirmeye ve yüksek güvenliğe sahip mükemmel 5 yıldızlı otel">
+  <meta name="twitter:description"
+    content="Lara Barut Collection, Türkiye kıyılarında aile tatilleri, romantik kaçamaklar ve aktif tatiller için mükemmel bir yerdir. Otel, her türden gezgin için lüks, rahatlık ve çeşitli aktiviteleri bir araya getirmektedir.">
+  <meta name="description"
+    content="Lara Barut Collection, Türkiye kıyılarında aile tatilleri, romantik kaçamaklar ve aktif tatiller için mükemmel bir yerdir. Otel, her türden gezgin için lüks, rahatlık ve çeşitli aktiviteleri bir araya getirmektedir.">
+  <title>Yüksek derecelendirmeye ve yüksek güvenliğe sahip mükemmel 5 yıldızlı otel</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/AROneSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/YoungSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./resources/swiper/swiper.css">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script src="./resources/swiper/swiper.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <section class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Oyunlarımız 18 yaş ve üzeri YETİŞKİN kitleye yöneliktir. Yaşınızı onaylamak için “Kabul
+            Edildi” seçeneğini tıklayın.</p>
+          <button class="popup__button">Kabul edilmiş</button>
+        </div>
+      </section>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="hero-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="hero-slider__slide swiper-slide">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/hero-1.webp" type="image/webp">
+                <img src="./img/hero-1.jpg" width="336" height="336" alt="Lara Barut Collection">
+              </picture>
+            </div>
+            <div class="hero-slider__slide swiper-slide">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/hero-2.webp" type="image/webp">
+                <img src="./img/hero-2.jpg" width="336" height="336" alt="Lara Barut Collection">
+              </picture>
+            </div>
+            <div class="hero-slider__slide swiper-slide">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/hero-3.webp" type="image/webp">
+                <img src="./img/hero-3.jpg" width="336" height="336" alt="Lara Barut Collection">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="hero__container container">
+          <div class="hero__descr">
+            <h1 class="hero__title tt-52-38">
+              Lara Barut Collection
+            </h1>
+            <div class="hero__texts">
+              <p class="hero__text tx-16-14">
+                Antalya'nın Lara bölgesinde yer alan beş yıldızlı lüks bir tesistir. Bu tesis, dinlenme, rahatlama,
+                eğlence ve plaj tatilleri için olağanüstü olanaklar sunmaktadır.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start konumu -->
+      <section class="konumu" id="konumu">
+        <div class="container">
+          <h2 class="konumu__title tt-46-32">
+            Konumu
+          </h2>
+          <ul class="konumu__list">
+            <li class="konumu__item">
+              <div class="konumu__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/resp-1.webp" type="image/webp">
+                  <img src="./img/resp-1.jpg" loading="lazy" width="336" height="336" alt="Konumu">
+                </picture>
+              </div>
+              <div class="konumu__texts">
+                <p class="konumu__text tx-16-14">
+                  Denize yakın olan otel, konuklarına plaja doğrudan erişim ve Akdeniz'in güzel manzaralarını
+                  sunmaktadır.
+                </p>
+              </div>
+            </li>
+            <li class="konumu__item">
+              <div class="konumu__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/resp-2.webp" type="image/webp">
+                  <img src="./img/resp-2.jpg" loading="lazy" width="336" height="336" alt="Konumu">
+                </picture>
+              </div>
+              <div class="konumu__texts">
+                <p class="konumu__text tx-16-14">
+                  Otelin oda ve süitleri çağdaş bir tarzda dekore edilmiş olup konuklara konfor ve lüks sunmaktadır.
+                </p>
+              </div>
+            </li>
+            <li class="konumu__item">
+              <div class="konumu__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/resp-3.webp" type="image/webp">
+                  <img src="./img/resp-3.jpg" loading="lazy" width="336" height="336" alt="Konumu">
+                </picture>
+              </div>
+              <div class="konumu__texts">
+                <p class="konumu__text tx-16-14">
+                  Lara Barut Collection, açık büfe kahvaltı ve farklı mutfak türlerine sahip alakart restoranların yanı
+                  sıra bar ve kafeler de dahil olmak üzere çeşitli restoranlar sunmaktadır.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end konumu -->
+
+      <!-- start spa -->
+      <section class="spa" id="spa">
+        <div class="container">
+          <h2 class="spa__title tt-46-32">
+            Spa
+          </h2>
+          <div class="spa__content">
+            <div class="spa__left">
+              <div class="spa__texts">
+                <p class="spa__text tx-16-14">
+                  Otelde çeşitli bakımlar, masajlar, saunalar ve havuzlar içeren bir spa merkezi bulunmaktadır.
+                </p>
+                <p class="spa__text tx-16-14">
+                  Lara Barut Collection, çocuklar ve yetişkinler için çeşitli havuzlar, su kaydırakları ve
+                  animasyonlarla donatılmıştır.
+                </p>
+                <p class="spa__text tx-16-14">
+                  Konuklar fitness dersleri, tenis, voleybol, futbol ve diğer açık hava etkinliklerinin keyfini
+                  çıkarabilirler.
+                </p>
+              </div>
+            </div>
+            <ul class="spa__images">
+              <li class="spa__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/spa-1.webp" type="image/webp">
+                  <img src="./img/spa-1.jpg" loading="lazy" width="336" height="336" alt="Spa">
+                </picture>
+              </li>
+              <li class="spa__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/spa-2.webp" type="image/webp">
+                  <img src="./img/spa-2.jpg" loading="lazy" width="336" height="336" alt="Spa">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end spa -->
+
+      <!-- start galeri -->
+      <section class="galeri" id="galeri">
+        <div class="container">
+          <h2 class="galeri__title tt-46-32">
+            Galeri
+          </h2>
+          <ul class="galeri__list">
+            <li class="galeri__item">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/gallery-1.webp" type="image/webp">
+                <img src="./img/gallery-1.jpg" loading="lazy" width="336" height="336" alt="Galeri">
+              </picture>
+            </li>
+            <li class="galeri__item">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/gallery-2.webp" type="image/webp">
+                <img src="./img/gallery-2.jpg" loading="lazy" width="336" height="336" alt="Galeri">
+              </picture>
+            </li>
+            <li class="galeri__item">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/gallery-3.webp" type="image/webp">
+                <img src="./img/gallery-3.jpg" loading="lazy" width="336" height="336" alt="Galeri">
+              </picture>
+            </li>
+            <li class="galeri__item">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/gallery-4.webp" type="image/webp">
+                <img src="./img/gallery-4.jpg" loading="lazy" width="336" height="336" alt="Galeri">
+              </picture>
+            </li>
+            <li class="galeri__item">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/gallery-5.webp" type="image/webp">
+                <img src="./img/gallery-5.jpg" loading="lazy" width="336" height="336" alt="Galeri">
+              </picture>
+            </li>
+            <li class="galeri__item">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/gallery-6.webp" type="image/webp">
+                <img src="./img/gallery-6.jpg" loading="lazy" width="336" height="336" alt="Galeri">
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end galeri -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

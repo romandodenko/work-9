@@ -1,0 +1,198 @@
+:root {
+  // Шрифты
+  --font-main: Arial; // 1 шрифт на странице
+  --font-second: "SpartanMB", sans-serif; // 2 шрифт на странице
+
+  // Контейнер
+  --container-width: 1215px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #fff; // бекграунд страницы
+  --background-menu: #fff; // бекграунд страницы
+  --l-blue: #5875bd;
+  --blue: #12183b;
+  --white: #ffffff;
+  --black: #000000;
+
+  --hover: #414c85; // цвет при ховере
+  --active: #303a71; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.webp {
+  & .hero {
+    background-image: url(../../img/hero.webp);
+  }
+}
+
+.no-webp {
+  & .hero {
+    background-image: url(../../img/hero.jpg);
+  }
+}
+
+.tt-64-32 {
+  font-family: var(--font-second);
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 58px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 32px;
+  }
+}
+
+.tt-53-28 {
+  font-family: var(--font-second);
+  font-weight: 900;
+  font-size: 53px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 48px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.tt-31-24 {
+  font-family: var(--font-second);
+  font-weight: 900;
+  font-size: 31px;
+  line-height: 140%;
+
+  @media (max-width: 1220px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tx-17-14 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-23-18 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 21px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border-radius: 49px;
+  min-width: 133px;
+  min-height: 64px;
+  width: fit-content;
+  background-color: var(--l-blue);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--white);
+  transition: background-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}

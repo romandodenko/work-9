@@ -1,0 +1,229 @@
+:root {
+  // Шрифты
+  --font-main: "SofiaSans", sans-serif; // главный шрифт на странице
+  --font-second: "Syncopate", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1310px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #1C1C1C; // бекграунд страницы
+  --yellow: #F7B800;
+  --l-yellow: #E9AD00;
+  --white: #ffffff;
+  --black: #000000;
+  --main: #ffffff;
+  --l-dark: #292929;
+  --dark: #2D2D2D;
+
+  --hover: #c29409; // цвет при ховере
+  --active: #cf9d06; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+
+  &_change {
+    & .nav__link {
+      color: var(--white);
+ 
+      @media (any-hover: hover) {
+        &:hover {
+          color: var(--hover);
+        }
+      }
+
+      &:focus-visible {
+        color: var(--hover);
+      }
+
+      &:active {
+        color: var(--active);
+        transition-duration: .1s;
+      }
+    }
+
+    & .burger {
+      & span {
+        background-color: var(--white);
+      }
+    }
+
+    & .header__icon {
+      & a {
+        & svg {
+          fill: var(--white);
+        }
+      }
+    }
+  }
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tx-17 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.tx-23 {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 140%;
+}
+
+.tt-64-24 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 52px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tt-53-32 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 120%;
+
+  @media (max-width: 991px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 32px;
+  }
+}
+
+.tt-31-24 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--black);
+  width: fit-content;
+  border-radius: 53px;
+  min-width: 132px;
+  min-height: 46px;
+  transition: background-color .3s ease-in-out;
+
+  &_background {
+    background-color: var(--l-dark);
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}
+
+.input {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  min-height: 74px;
+  padding: 0 24px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--white);
+  background-color: var(--l-yellow);
+  border: 2px solid transparent;
+  transition: border-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: var(--white);
+    }
+  }
+
+  &:focus-visible {
+    border-color: var(--white);
+  }
+
+  &::placeholder {
+    opacity: .5;
+    color: var(--white);
+  }
+}

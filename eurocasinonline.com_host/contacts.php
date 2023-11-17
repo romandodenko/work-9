@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stránky s nejlepšími a nejžhavějšími simulátory hazardních her pro hráče">
+  <meta property="og:site_name"
+    content="Čekají na vás některé z nejžhavějších a nejlepších her tohoto žánru. Je důležité si uvědomit, že všechny simulátory na našem webu neposkytují možnost vyhrát skutečné peníze.">
+  <meta name="twitter:title" content="Stránky s nejlepšími a nejžhavějšími simulátory hazardních her pro hráče">
+  <meta name="twitter:description"
+    content="Čekají na vás některé z nejžhavějších a nejlepších her tohoto žánru. Je důležité si uvědomit, že všechny simulátory na našem webu neposkytují možnost vyhrát skutečné peníze.">
+  <meta name="description"
+    content="Čekají na vás některé z nejžhavějších a nejlepších her tohoto žánru. Je důležité si uvědomit, že všechny simulátory na našem webu neposkytují možnost vyhrát skutečné peníze.">
+  <title>Stránky s nejlepšími a nejžhavějšími simulátory hazardních her pro hráče</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Nunito-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Varela-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start contacts -->
+      <section class="contacts rd-upload">
+        <div class="container">
+          <div class="contacts__top">
+            <h1 class="contacts__title tt-53-46">
+              Kontakty
+            </h1>
+            <div class="contacts__texts">
+              <p class="contacts__text tx-23">
+                Zůstaňte v obraze o všech událostech souvisejících s naší společností a nenechte si ujít důležité
+                novinky. Kontaktujte nás ještě dnes a přihlaste se k odběru našeho newsletteru!
+              </p>
+            </div>
+            <form class="form" action="#!" name="form" autocomplete="off">
+              <div class="form__inputs">
+                <label class="form__label" for="text">
+                  <span>
+                    Tvé jméno
+                  </span>
+                  <input class="form__input input" type="text" name="text" id="text" required>
+                </label>
+                <label class="form__label" for="email">
+                  <span>
+                    Tvůj e-mail
+                  </span>
+                  <input class="form__input input" type="email" name="email" id="email" required>
+                </label>
+              </div>
+              <button class="form__button but" type="submit">
+                Poslat
+              </button>
+            </form>
+          </div>
+          <div class="contacts__bottom">
+            <div class="contacts__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163931.6420409822!2d14.153826872445869!3d50.059472508998404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b939c0970798b%3A0x400af0f66164090!2sPrague%2C%20Czechia!5e0!3m2!1sen!2sen!4v1698996905972!5m2!1sen!2sen"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <address class="contacts__address">
+              <ul class="contacts__list">
+                <li class="contacts__item tx-16">
+                  <span>
+                    Adresa
+                  </span>
+                  <p>
+                    1250/13 Krzementsova ulice, Praha
+                  </p>
+                </li>
+                <li class="contacts__item tx-16">
+                  <span>
+                    Pošta
+                  </span>
+                  <a href="mailto:eurocasinonline@gmail.com">
+                    eurocasinonline@gmail.com
+                  </a>
+                </li>
+                <li class="contacts__item tx-16">
+                  <span>
+                    E-mailem
+                  </span>
+                  <a href="tel:+420221502111">
+                    +420 2 21 50 21 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

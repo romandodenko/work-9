@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+ <html lang="es">
+
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="Termas de Jahuel Hotel & Spa. Altas calificaciones, juego seguro.">
+   <meta property="og:site_name"
+     content="Termas de Jahuel Hotel & Spa es un lujoso hotel y balneario situado en Jahuel, en la región chilena de Valparaíso. Este hotel es conocido por sus aguas termales, tratamientos de spa y hermosas vistas del paisaje circundante.">
+   <meta name="twitter:title" content="Termas de Jahuel Hotel & Spa. Altas calificaciones, juego seguro.">
+   <meta name="twitter:description"
+     content="Termas de Jahuel Hotel & Spa es un lujoso hotel y balneario situado en Jahuel, en la región chilena de Valparaíso. Este hotel es conocido por sus aguas termales, tratamientos de spa y hermosas vistas del paisaje circundante.">
+   <meta name="description"
+     content="Termas de Jahuel Hotel & Spa es un lujoso hotel y balneario situado en Jahuel, en la región chilena de Valparaíso. Este hotel es conocido por sus aguas termales, tratamientos de spa y hermosas vistas del paisaje circundante.">
+   <title>Termas de Jahuel Hotel & Spa. Altas calificaciones, juego seguro.</title>
+   <link rel="shortcut icon" href="./img/favicon.png">
+   <link rel="preload" href="./fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="./fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="./css/main-min.css">
+   <script defer src="./js/main.js"></script>
+ </head>
+
+ <body>
+   <div class="page">
+     <!-- start header -->
+     <?php
+     include 'header.php';
+     ?>
+     <!-- end header -->
+     <main>
+       <!-- start contacts -->
+       <section class="contacts">
+         <div class="container">
+           <h1 class="contacts__title tt-46-30">
+             Contactos
+           </h1>
+           <form class="form" action="#!" name="form" autocomplete="off">
+             <div class="form__inputs">
+               <input class="form__input input" type="text" name="text" id="text" placeholder="Nombre" required>
+               <input class="form__input input" type="email" name="email" id="email" placeholder="Correo" required>
+             </div>
+             <button class="form__button but" type="submit">
+               Enviar
+             </button>
+           </form>
+           <div class="contacts__bottom">
+             <address class="contacts__address">
+               <ul class="contacts__info">
+                 <li class="contacts__info-item">
+                   Málaga #89, Piso 5, Las Condes, Santiago
+                 </li>
+                 <li class="contacts__info-item">
+                   <a href="mailto:reservas@jahuel.cl">
+                     reservas@jahuel.cl
+                   </a>
+                 </li>
+                 <li class="contacts__info-item">
+                   <a href="tel:+56224111720">
+                     (+56 2) 2 411 17 20
+                   </a>
+                 </li>
+               </ul>
+             </address>
+             <div class="contacts__map">
+               <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2776271972098!2d-70.58705920000001!3d-33.4160056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf1790a7e519%3A0xe70f665dc21185f2!2sM%C3%A1laga%2089%2C%20Piso%205%2C%207550144%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1sen!2sru!4v1696395442726!5m2!1sen!2sru"
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+           </div>
+         </div>
+       </section>
+       <!-- end contacts -->
+     </main>
+     <!-- start footer -->
+     <?php
+     include 'footer.php';
+     ?>
+     <!-- end footer -->
+   </div>
+ </body>
+
+ </html>

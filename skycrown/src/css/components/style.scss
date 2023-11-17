@@ -1,0 +1,377 @@
+@mixin mb-40-24 {
+  &:not(:last-child) {
+    margin-bottom: 40px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@mixin mb-30-24 {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@mixin mb-24-16 {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.header {
+  padding: 16px 0;
+  background-color: var(--background-header);
+
+  @media (max-width: 600px) {
+    padding: 10px 0;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    @media (max-width: 600px) {
+      justify-content: center;
+    }
+  }
+
+  &__logo {
+    flex: 0 0 179px;
+    height: 44px;
+
+    @media (max-width: 991px) {
+      flex: 0 0 140px;
+      height: 34px;
+    }
+
+    @media (max-width: 600px) {
+      flex: 0 0 120px;
+      height: 29px;
+    }
+
+    & img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 37px;
+
+    @media (max-width: 991px) {
+      gap: 10px 24px;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__wrapper-button {}
+
+  &__button {
+    color: var(--white);
+    font-weight: 500;
+
+    &_hover {
+      transition: color .3s ease-in-out;
+
+      @media (any-hover: hover) {
+        &:hover {
+          color: var(--hover);
+        }
+      }
+
+      &:focus-visible {
+        color: var(--hover);
+      }
+
+      &:active {
+        color: var(--active);
+        transition-duration: .1s;
+      }
+    }
+  }
+}
+
+// ======================================================================================================================================================
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+// ======================================================================================================================================================
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 24px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -1px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1;
+
+    @media (max-width: 600px) {
+      justify-content: space-evenly;
+    }
+  }
+
+  &__top {
+    @include mb-40-24();
+  }
+
+  &__top-country {
+    @include mb-30-24();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    & img {
+      display: block;
+      flex: 0 0 28px;
+      width: 100%;
+      height: 28px;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  &__top-text {
+    color: var(--white);
+  }
+
+  &__info {
+    @include mb-40-24();
+    text-align: center;
+  }
+
+  &__info-text {
+    line-height: 1;
+    font-family: var(--font-second);
+    -webkit-animation: changeColorBonusGame 24s infinite;
+
+    &_spins {
+      font-family: var(--font-triple);
+      -webkit-animation: changeColorBonusSpins 24s infinite;
+      margin-top: -10px;
+
+      @media (max-width: 1220px) {
+        margin-top: 0;
+      }
+
+    }
+  }
+
+  &__link {
+    @include mb-40-24();
+    margin: 0 auto;
+  }
+
+  &__bottom {
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    gap: 10px 16px;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+    }
+
+  }
+
+  &__pays {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px 62px;
+
+    @media (max-width: 1220px) {
+      gap: 10px 32px;
+    }
+
+    @media (max-width: 600px) {
+      gap: 6px 16px;
+    }
+  }
+
+  &__pay {
+    flex: 0 0 64px;
+    height: 40px;
+
+    @media (max-width: 600px) {
+      flex: 0 0 44px;
+      height: 30px;
+    }
+
+    & img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+}
+
+// ======================================================================================================================================================
+
+.hero-slider {
+  @include mb-30-24();
+  margin: 0 auto;
+  max-width: 291px;
+  width: 100%;
+
+  @media (max-width: 991px) {
+    max-width: 240px;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 200px;
+  }
+
+  &__slide {
+    height: 169px;
+
+    @media (max-width: 991px) {
+      height: 120px;
+    }
+
+    &.swiper-slide-active {
+      & img {
+        opacity: 1;
+      }
+    }
+
+    & img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      opacity: 0;
+      transition: opacity .3s ease-in-out;
+    }
+  }
+}
+
+// ======================================================================================================================================================
+
+.footer {
+  display: none;
+}
+
+@-webkit-keyframes changeColorBonusGame {
+  0% {
+    color: #d51ab7;
+  }
+
+  35% {
+    color: #D67420;
+  }
+
+  70% {
+    color: #FFCF02;
+  }
+
+  100% {
+    color: #d51ab7;
+  }
+}
+
+@-webkit-keyframes changeColorBonusSpins {
+  0% {
+    color: #FFCF02;
+  }
+
+  35% {
+    color: #FFCF02;
+  }
+
+  70% {
+    color: #FF0000;
+  }
+
+  100% {
+    color: #FFCF02;
+  }
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}

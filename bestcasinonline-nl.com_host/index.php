@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Comfortabele en veilige kamers, evenals lage prijzen..">
+  <meta property="og:site_name"
+    content="Een historisch hotel gelegen in het hart van Amsterdam, Nederland. Het hotel heeft een rijke geschiedenis en biedt gasten comfortabele accommodatie en faciliteiten.">
+  <meta name="twitter:title" content="Comfortabele en veilige kamers, evenals lage prijzen.">
+  <meta name="twitter:description"
+    content="Een historisch hotel gelegen in het hart van Amsterdam, Nederland. Het hotel heeft een rijke geschiedenis en biedt gasten comfortabele accommodatie en faciliteiten.">
+  <meta name="description"
+    content="Een historisch hotel gelegen in het hart van Amsterdam, Nederland. Het hotel heeft een rijke geschiedenis en biedt gasten comfortabele accommodatie en faciliteiten.">
+  <title>Comfortabele en veilige kamers, evenals lage prijzen.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Onze games zijn bedoeld voor een VOLWASSEN publiek van 18 jaar en ouder. Klik op
+            "Accepteren".
+            om uw leeftijd te bevestigen.
+            Klik op "Gereed".</p>
+          <button class="popup__button">Geaccepteerd</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__descr">
+            <h1 class="hero__title tt-42-26">
+              Tivoli Doelen Amsterdam Hotel
+            </h1>
+            <div class="hero__texts">
+              <p class="hero__text tx-20-16">
+                Een historisch hotel gelegen in het hart van Amsterdam, Nederland. Het hotel heeft een rijke
+                geschiedenis en biedt gasten comfortabele accommodatie en faciliteiten.
+              </p>
+              <p class="hero__text tx-20-16">
+                Hotel biedt een unieke kans om de sfeer van historisch Amsterdam op te snuiven, te genieten van luxe en
+                comfort en dicht bij de belangrijkste bezienswaardigheden van de stad te zijn.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start start -->
+      <section class="block" id="history">
+        <div class="container">
+          <div class="block__content">
+            <div class="block__left">
+              <h2 class="block__title tt-36-24">
+                Geschiedenis
+              </h2>
+              <p class="block__text tx-20-16">
+                Het "Tivoli Doelen Amsterdam Hotel" is een van de oudste hotels in Amsterdam en heeft een geschiedenis
+                van meer dan 200 jaar. Het hotel heeft zijn historische sfeer en bouwstijl behouden, wat zorgt voor een
+                unieke ervaring voor gasten.
+              </p>
+            </div>
+            <ul class="block__images">
+              <li class="block__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/2.webp" type="image/webp">
+                  <img src="./img/2.jpg" loading="lazy" width="300" height="300" alt="Geschiedenis">
+                </picture>
+              </li>
+              <li class="block__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/2-1.webp" type="image/webp">
+                  <img src="./img/2-1.jpg" loading="lazy" width="300" height="300" alt="Geschiedenis">
+                </picture>
+              </li>
+              <li class="block__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/2-2.webp" type="image/webp">
+                  <img src="./img/2-2.jpg" loading="lazy" width="300" height="300" alt="Geschiedenis">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end block -->
+
+      <!-- start start -->
+      <section class="block" id="razmewenie">
+        <div class="container">
+          <div class="block__content block__content_flex">
+            <div class="block__left block__left_nomargin block__left_flex">
+              <h2 class="block__title tt-36-24">
+                Accommodatie
+              </h2>
+              <p class="block__text tx-20-16">
+                Het hotel biedt verschillende kamers, waaronder standaardkamers, suites en kamers met uitzicht op de
+                gracht. Alle kamers zijn klassiek ingericht en voorzien van moderne voorzieningen. Het hotel biedt een
+                hoog niveau van service en zorg voor de gasten.
+              </p>
+            </div>
+            <ul class="block__images block__images_flex block__images_grid2">
+              <li class="block__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/3.webp" type="image/webp">
+                  <img src="./img/3.png" loading="lazy" width="300" height="300" alt="Accommodatie">
+                </picture>
+              </li>
+              <li class="block__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/3-1.webp" type="image/webp">
+                  <img src="./img/3-1.png" loading="lazy" width="300" height="300" alt="Accommodatie">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end block -->
+
+      <!-- start start -->
+      <section class="block" id="rest">
+        <div class="container">
+          <div class="block__left">
+            <h2 class="block__title tt-36-24">
+              Restaurants
+            </h2>
+            <p class="block__text tx-20-16">
+              Het hotel heeft een restaurant en bar waar gasten kunnen genieten van haute cuisine en een verscheidenheid
+              aan drankjes in een gezellige sfeer.
+            </p>
+          </div>
+          <ul class="block__images block__images_dflex">
+            <li class="block__image block__image_dflex block__image_radius">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/4.webp" type="image/webp">
+                <img src="./img/4.jpg" loading="lazy" width="300" height="300" alt="Restaurants">
+              </picture>
+            </li>
+            <li class="block__image block__image_dflex block__image_radius">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/4-1.webp" type="image/webp">
+                <img src="./img/4-1.jpg" loading="lazy" width="300" height="300" alt="Restaurants">
+              </picture>
+            </li>
+            <li class="block__image block__image_dflex block__image_radius">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/4-2.webp" type="image/webp">
+                <img src="./img/4-2.jpg" loading="lazy" width="300" height="300" alt="Restaurants">
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end block -->
+
+      <!-- start start -->
+      <section class="block" id="prive">
+        <div class="container">
+          <div class="block__content block__content_flex">
+            <div class="block__left block__left_nomargin block__left_flex">
+              <h2 class="block__title block__title_left tt-36-24">
+                Privéterrassen
+              </h2>
+              <p class="block__text block__text_left tx-20-16">
+                Sommige hotelkamers hebben een privéterras met uitzicht op de gracht, waardoor een romantische sfeer
+                wordt gecreëerd en gasten kunnen genieten van het prachtige uitzicht.
+              </p>
+            </div>
+            <ul class="block__images block__images_flex block__images_grid1">
+              <li class="block__image block__image_flex">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/5.webp" type="image/webp">
+                  <img src="./img/5.png" loading="lazy" width="300" height="300" alt="Privéterrassen">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end block -->
+
+      <!-- start start -->
+      <section class="block" id="ligging">
+        <div class="container">
+          <div class="block__content block__content_flex">
+            <ul class="block__images block__images_flex block__images_grid1">
+              <li class="block__image block__image_flex">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/6.webp" type="image/webp">
+                  <img src="./img/6.png" loading="lazy" width="300" height="300" alt="Ligging">
+                </picture>
+              </li>
+            </ul>
+            <div class="block__left block__left_flex">
+              <h2 class="block__title block__title_left tt-36-24">
+                Ligging
+              </h2>
+              <p class="block__text block__text_left tx-20-16">
+                Het hotel ligt in het historische deel van Amsterdam, waardoor het een ideale uitvalsbasis is om de stad
+                en haar bezienswaardigheden te verkennen. Veel culturele en historische bezienswaardigheden liggen op
+                loopafstand.
+              </p>
+              <p class="block__text block__text_left tx-20-16">
+                Het hotel ligt dicht bij de beroemde grachten van Amsterdam en gasten kunnen hier heerlijk langs
+                wandelen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end block -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

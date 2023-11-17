@@ -1,0 +1,116 @@
+:root {
+  // Шрифты
+  --font-main: "Inter", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1440px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #102238; // бекграунд страницы
+  --white: #ffffff;
+  --toxic: #00ffad;
+  --d-blue: #102238;
+  --l-blue: #2a4059;
+
+  --hover: #23ffe5; // цвет при ховере
+  --active: #23ffe5; // цвет при активе
+  --hover2: #6b7c8d; // цвет при ховере
+  --active2: #00ffad; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tx14 {
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.tx20 {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.tx40 { 
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--toxic);
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border-radius: 48px;
+  min-width: 237px;
+  min-height: 77px;
+  width: fit-content; 
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--d-blue);
+  background-color: var(--toxic);
+  transition: background-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}

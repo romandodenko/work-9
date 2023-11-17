@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="Polynesia Plava Laguna je najbolji hotel u Hrvatskoj. Naš je hotel visoko ocijenjen i siguran. Uvjeti">
+  <meta property="og:site_name"
+    content="Apartmani Polynesia Plava Laguna je turističko naselje smješteno u Poreču u Hrvatskoj.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Polynesia Plava Laguna je najbolji hotel u Hrvatskoj. Naš je hotel visoko ocijenjen i siguran. Uvjeti">
+  <meta name="twitter:description"
+    content="Apartmani Polynesia Plava Laguna je turističko naselje smješteno u Poreču u Hrvatskoj.">
+  <meta name="description"
+    content="Apartmani Polynesia Plava Laguna je turističko naselje smješteno u Poreču u Hrvatskoj.">
+  <title>Polynesia Plava Laguna je najbolji hotel u Hrvatskoj. Naš je hotel visoko ocijenjen i siguran. Uvjeti</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start terms -->
+      <section class="terms">
+        <div class="container">
+          <h1><strong>Uvjeti</strong></h1>
+
+          <p>Dobro došli na najloje-ponude-dana.com!</p>
+
+          <p>Ovi uvjeti opisuju pravila i propise za korištenje najloje-ponude-dana.com
+            Web stranica na adresi najloje-ponude-dana.com.</p>
+
+          <p>Pristupom ovoj web stranici prihvaćate ove uvjete i odredbe. Ne nastavljaj
+            koristiti
+            najloje-ponude-dana.com ako se ne slažete sa svim uvjetima navedenim na ovoj stranici.</p>
+
+          <p>Sljedeće se odnosi na ove uvjete i odredbe, politiku privatnosti i odricanje od odgovornosti
+            terminologija
+            i svi ugovori: "Kupac", "Vi" i "Vaš" odnosi se na vas, osobu koja ulazi na ovu web stranicu i
+            je
+            dosljedan
+            opći uvjeti društva. "Tvrtka", "mi", "nas", "naš" i "nas" odnose se na naše
+            Društvo. "Kupac", "kupci" ili "nas" odnosi se i na kupca i na nas. Svi se primjenjuju
+            odredbe i uvjeti
+            prijaviti se
+            ponuda,
+            prihvaćanje i procjena plaćanja potrebnog za dovršetak procesa naše korisničke pomoći
+            puna
+            na način koji je najprikladniji za izričitu svrhu zadovoljenja kupčevih potreba dostave
+            izvoditi
+            navedene usluge tvrtke, sukladno i vodeći računa o važećim
+            zakonsko oglašavanje. Svatko
+            koristiti
+            gore navedena terminologija ili druge riječi u jednini, množini, velikim slovom i/ili on/ona ili oni
+            su zauzeti
+            Kao
+            međusobno zamjenjivi i stoga se odnose na istu stvar.</p>
+
+          <h2><strong>Informacijske kapsule</strong></h2>
+
+          <p>Koristimo kolačiće. Pristupanjem najloje-ponude-dana.com prihvaćate korištenje kolačića
+            s politikom privatnosti najloje-ponude-dana.com. </p>
+
+          <p>Većina interaktivnih web stranica koristi kolačiće za dobivanje informacija o korisniku
+            za svaki posjet. Oni su kolačići
+            koristite našu web stranicu kako biste omogućili funkcionalnost u određenim područjima kako biste ljudima
+            olakšali
+            napraviti
+            posjetiti
+            naše
+            web stranica. Neki od naših pridruženih/oglašavačkih partnera također mogu koristiti kolačiće.</p>
+
+          <h2><strong>Licenca</strong></h2>
+
+          <p>Osim ako nije drugačije navedeno, najloje-ponude-dana.com i/ili njegovi davatelji licence posjeduju
+            intelektualac
+            vlasništvo
+            prava
+            Vlasništvo
+            za sve materijale na najloje-ponude-dana.com. Sva prava intelektualnog vlasništva pridržana.
+            Možeš
+            dobivate pristup
+            ovo je najloje-ponude-dana.com za vašu osobnu upotrebu, podložno ovdje navedenim ograničenjima
+            uvjetima i
+            vezu.</p>
+
+          <p>Ne možete:</p>
+          <ul>
+            <li>Ponovo objavite materijal na najloje-ponude-dana.com</li>
+            <li>Prodaja, iznajmljivanje ili podlicenciranje materijala s najloje-ponude-dana.com</li>
+            <li>Reprodukcija, umnožavanje ili kopiranje materijala s najloje-ponude-dana.com</li>
+            <li>Reorganizirajte sadržaj s najloje-ponude-dana.com</li>
+          </ul>
+
+          <p>Dijelovi ove web stranice korisnicima nude mogućnost objavljivanja i izražavanja mišljenja i informacija
+            zamijeniti
+            određene dijelove web stranice. najloje-ponude-dana.com ne filtrira, ne uređuje, ne objavljuje niti
+            pregledava
+            prethodni komentari
+            o njihovoj prisutnosti na web stranici. Komentari ne odražavaju stavove i mišljenja
+            najloje-ponude-dana.com, njegovi agenti i/ili povezana društva. Komentari odražavaju one od
+            osoba
+            pozicije i
+            mišljenja
+            koji objavljuju svoje stavove i mišljenja. U mjeri dopuštenoj važećim zakonom, to će učiniti
+            takav je slučaj
+            najloje-ponude-dana.com
+            nije odgovoran za komentare niti za bilo kakvu odgovornost, štetu ili nastale troškove
+            i/ili
+            pretrpio zbog toga
+            bilo kakvo korištenje i/ili objavljivanje i/ili pojavljivanje komentara na ovoj web stranici.</p>
+
+          <p>najloje-ponude-dana.com zadržava pravo praćenja i uklanjanja eventualnih komentara
+            komentari
+            smatra neprikladnim, uvredljivim ili kršenjem ovih Uvjeta.</p>
+
+          <p>Jamčite i izjavljujete da:</p>
+
+          <ul>
+            <li>Imate pravo postavljati komentare na našoj web stranici i imate sve potrebne licence i
+              dajem dopuštenje
+              dakle;</li>
+            <li>Međutim, komentari ne krše nikakva prava intelektualnog vlasništva, uključujući autorska prava
+              prava
+              Nije ograničeno na,
+              patent ili zaštitni znak treće strane;</li>
+            <li>Komentari ne sadrže klevetnički, klevetnički, opsceni ili na neki drugi način
+              ilegalni materijal
+              što je zadiranje u privatnost</li>
+            <li>Komentari se ne koriste za traženje ili promoviranje poslovanja ili običaja
+              reprezentacija
+              poslovanje
+              ili ilegalne aktivnosti.</li>
+          </ul>
+
+          <p>Ovime Klubu najloje-ponude-dana.com dajete neisključivu licencu za korištenje,
+            reprodukcija, uređivanje i
+            osnaživanje drugih
+            koristiti, reproducirati i uređivati ​​vaše komentare u bilo kojem obliku, formatu ili
+            srednje.</p>
+
+          <h2><strong>Hiperveza na naš sadržaj</strong></h2>
+
+          <p>Sljedeće organizacije mogu se povezati s našim web mjestom bez prethodnog pismenog odobrenja:</p>
+
+          <ul>
+            <li>Državne agencije;</li>
+            <li>Tražilice;</li>
+            <li>Tiskovne organizacije;</li>
+            <li>Distributeri online kataloga mogu se povezati na našu stranicu na isti način kao
+              hiperveza na
+              Web stranice drugih registriranih tvrtki; i</li>
+            <li>Sustavno akreditirane tvrtke, isključujući neprofitno zapošljavanje,
+              dobrotvorne trgovine
+              centri,
+              i dobrotvorne grupe za prikupljanje sredstava koje možda nisu hipervezom povezane s našim stranicama.</li>
+          </ul>
+
+          <p>Ove organizacije mogu se povezati s našim web-mjestom, publikacijama ili drugim informacijama
+            web mjesto kao
+            poveznica: (a) ni na koji način ne dovodi u zabludu; (b) ne podrazumijeva sponzorstvo, podršku ili podršku
+            povezujuću stranu i njezine proizvode i/ili usluge; i (c) odgovarati obvezujućem kontekstu
+            strana klijenta.</p>
+
+          <p>Razmatramo i možemo odobriti druge zahtjeve za povezivanje od sljedećih vrsta organizacija:</p>
+
+          <ul>
+            <li>opće poznati izvori informacija o korisnicima i/ili tvrtkama;</li>
+            <li>mjesta zajednice dot.com;</li>
+            <li>udruge ili druge skupine koje predstavljaju dobrotvorne organizacije;</li>
+            <li>distributeri online telefonskih imenika;</li>
+            <li>internetski portali;</li>
+            <li>računovodstvene, pravne i konzultantske tvrtke; i</li>
+            <li>obrazovne ustanove i trgovačka udruženja.</li>
+          </ul>
+
+          <p>Odobrit ćemo zahtjeve za kontaktiranje ovih organizacija ako utvrdimo da: (a)
+            link ne radi
+            bi to učinio
+            negativno ocjenjujemo sebe ili svoje akreditirane tvrtke; (b) organizacija ih nema
+            negativni podaci kod nas; (c) korist za nas od vidljivosti hiperveze kompenzira
+            njegova odsutnost
+            sa najloje-ponude-dana.com; i (d) poveznica je u kontekstu općih informacija o izvoru.</p>
+
+          <p>Ove organizacije mogu se povezivati ​​na naše web mjesto sve dok veza: (a) ne dovodi u zabludu
+            nema šanse; (B)
+            ne podrazumijeva sponzorstvo, podršku ili podršku povezujućoj strani i njezinim proizvodima ili
+            usluge; i (c) prikladno u kontekstu web stranice Povezivača.</p>
+
+          <p>Ako ste jedna od organizacija navedenih u paragrafu 2 iznad i želite stupiti u kontakt
+            naše
+            web stranici, morate nas obavijestiti slanjem e-pošte na najloje-ponude-dana.com. donesi
+            tvoje
+            ime, tvoje
+            naziv organizacije, pojedinosti za kontakt i vaš URL, popis svih URL-ova s ​​kojih ste došli
+            namjeravate se povezati na našu stranicu i popis svih URL-ova na našoj stranici na koje
+            namjeravate uspostaviti vezu
+            neugodan
+            htio se povezati. Pričekajte 2-3
+            tjedana za odgovor.</p>
+
+          <p>Odobrene organizacije mogu se povezati na našu web stranicu na sljedeći način:</p>
+
+          <ul>
+            <li>Koristite naziv naše tvrtke; ili</li>
+            <li>Upotrebom Uniform Resource Locator-a s kojim ste povezani; ili</li>
+            <li>Upotrebom bilo kojeg drugog opisa na našoj povezanoj web stranici, tj
+              smislen u kontekstu i
+              format sadržaja poveznice.</li>
+          </ul>
+
+          <p>Korištenje logotipa najloje-ponude-dana.com ili drugog umjetničkog djela zabranjeno je za
+            veze
+            Kao
+            Nije
+            marka
+            licencni ugovor.</p>
+
+          <h2><strong>iFrame</strong></h2>
+
+          <p>Ne smijete stvarati okvire oko naših web stranica bez prethodnog odobrenja i pismenog dopuštenja
+            Che
+            promjene
+            vizualnu prezentaciju ili izgled naše web stranice na bilo koji način.</p>
+
+          <h2><strong>Odgovornost za sadržaj</strong></h2>
+
+          <p>Nismo odgovorni za sadržaj prikazan na vašoj web stranici. Slažete se s i
+            zaštititi
+            braniti nas od bilo kakve tvrdnje koja se pojavljuje na vašoj web stranici. Nijedan od linkova neće
+            djela
+            možda neće biti prikazan na nekim web stranicama koje
+            mogu se protumačiti kao klevetnički, opsceni ili kriminalni ili uvredljivi, inače uvredljivi ili uvredljivi
+            kršenje ili drugo kršenje prava trećih strana.</p>
+
+          <h2><strong>Zadržavanje prava</strong></h2>
+
+          <p>Zadržavamo pravo zahtijevati da uklonite sve ili pojedinačne poveznice na naše
+            web stranica. Vas
+            suglasni smo da ćemo na zahtjev odmah ukloniti sve poveznice na našu web stranicu. I mi također
+            rezervacije
+            pravo na njihovo poboljšanje
+            odredbe i uvjeti te politika veza u bilo koje vrijeme. Nastavkom povezivanja na našu web stranicu,
+            Slažeš li se?
+            biti vezani ovim Uvjetima i odredbama povezivanja i pridržavati se njih.</p>
+
+          <h2><strong>Uklonite veze s naše web stranice</strong></h2>
+
+          <p>Ako smatrate da je bilo koja veza na našoj web stranici nepoželjna iz bilo kojeg razloga, kontaktirajte nas
+            I
+            Obavještavajte nas
+            svaki trenutak. Ispoštovat ćemo zahtjeve za uklanjanje poveznica, ali nemamo obvezu to učiniti
+            komentar
+            odmah.</p>
+
+          <p>Ne jamčimo da su informacije na ovoj web stranici točne, ne jamčimo da su potpune
+            ili
+            točnost; Također ne jamčimo da će stranica i dalje biti dostupna ili da će biti dostupna
+            na
+            materijal web stranice
+            bit će ažuriran.</p>
+
+          <h2><strong>Odricanje od odgovornosti</strong></h2>
+
+          <p>U najvećoj mjeri dopuštenoj primjenjivim zakonom, isključujemo sva predstavljanja, jamstva
+            i
+            općim uvjetima koji se odnose na našu web stranicu i korištenje ove web stranice. Ništa u ovom
+            kompenzacija
+            neće:</p>
+
+          <ul>
+            <li>ograničavanje ili isključivanje naše ili vaše odgovornosti za smrt ili osobnu ozljedu;</li>
+            <li>ograničiti ili isključiti našu ili vašu odgovornost za prijevaru ili lažno predstavljanje;
+            </li>
+            <li>ograničiti naše ili vaše obveze na način nedopušten prema
+              mjerodavno pravo
+              zakonodavstvo; ili</li>
+            <li>isključite bilo kakvu odgovornost prema nama ili vama koja se ne može isključiti prema
+              mjerodavno pravo.
+            </li>
+          </ul>
+
+          <p>Ograničenja i odricanja od odgovornosti navedeni u ovom odjeljku i drugdje u ovom odricanju od
+            odgovornosti:
+            (biti jedno
+            uzima u obzir prethodni stavak; i (b) upravljati svim obvezama koje proizlaze iz
+            izjava o zastari
+            uključena odgovornost
+            odgovornost proizašla iz ugovora, odgovornost za štetu i za povredu
+            zakonske obveze.</p>
+
+          <p>Sve dok su web mjesto te informacije i usluge na web mjestu dostupni besplatno, mi ćemo
+            neće biti odgovoran za bilo kakav gubitak ili štetu bilo koje vrste.</p>
+        </div>
+      </section>
+      <!-- end terms -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

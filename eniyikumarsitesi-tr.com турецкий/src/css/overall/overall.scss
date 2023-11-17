@@ -1,0 +1,198 @@
+:root {
+  // Шрифты
+  --font-main: "MonaSans", sans-serif; // 1 шрифт на странице
+  --font-second: "Marcellus", sans-serif; // 2 шрифт на странице
+  --font-triple: "MeaCulpa", sans-serif; // 3 шрифт на странице
+  // Контейнер
+  --container-width: 1120px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #FFFCF8; // бекграунд страницы
+  --background-header: #141313;
+  --dark: #282626;
+  --gold: #CC8735;
+  --l-gold: #F7D05B;
+  --white: #ffffff;
+  --black: #000000;
+  --main: #000000;
+  --gray: #fffcf8;
+
+  --hover: #E4953A; // цвет при ховере
+  --active: #EAAD66; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.webp {
+  & .hero {
+    background-image: url(../../img/hero.webp);
+  }
+}
+
+.no-webp {
+  & .hero {
+    background-image: url(../../img/hero.jpg);
+  }
+}
+
+.tx-17 {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.tx-23 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 140%;
+}
+
+.tt-83-46 {
+  font-family: var(--font-triple);
+  font-weight: 400;
+  font-size: 83px;
+  line-height: 129%;
+
+  @media (max-width: 991px) {
+    font-size: 66px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 46px;
+  }
+}
+
+.tt-64-46 {
+  font-family: var(--font-second);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 129%;
+
+  @media (max-width: 991px) {
+    font-size: 56px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 46px;
+  }
+}
+
+.tt-53-40 {
+  font-family: var(--font-second);
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 120%;
+
+  @media (max-width: 991px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--gold);
+  width: fit-content;
+  border-radius: 30px;
+  min-width: 145px;
+  min-height: 50px;
+  transition: background-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}
+
+.input {
+  display: block;
+  padding: 0 32px;
+  width: 100%;
+  min-height: 58px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--main);
+  border: 1px solid var(--black);
+  border-radius: 45px;
+  background-color: var(--gray);
+  transition: border-color .3s ease-in-out;
+
+  &::placeholder {
+    color: var(--main);
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    border-color: var(--hover);
+  }
+}

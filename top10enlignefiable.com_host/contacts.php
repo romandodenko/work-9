@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="L'Hôtel Bulgari Paris est le tout premier, le plus chaud et le meilleur hôtel de France.">
+  <meta property="og:site_name"
+    content="Ce complexe hôtelier de luxe est situé au cœur de Paris, sur la célèbre avenue George, offrant des niveaux de confort, d'élégance et de service inégalés.">
+  <meta name="twitter:title"
+    content="L'Hôtel Bulgari Paris est le tout premier, le plus chaud et le meilleur hôtel de France.">
+  <meta name="twitter:description"
+    content="Ce complexe hôtelier de luxe est situé au cœur de Paris, sur la célèbre avenue George, offrant des niveaux de confort, d'élégance et de service inégalés.">
+  <meta name="description"
+    content="Ce complexe hôtelier de luxe est situé au cœur de Paris, sur la célèbre avenue George, offrant des niveaux de confort, d'élégance et de service inégalés.">
+  <title>L'Hôtel Bulgari Paris est le tout premier, le plus chaud et le meilleur hôtel de France.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Poly-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start contacts -->
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__top">
+            <form class="form" action="#!" name="form" autocomplete="off">
+              <label class="form__label" for="text">
+                <span class="form__span">
+                  Entrez votre nom
+                </span>
+                <input class="form__input input" type="text" name="text" id="text" placeholder="Titre..." required>
+              </label>
+              <label class="form__label" for="email">
+                <span class="form__span">
+                  Entrer votre Email
+                </span>
+                <input class="form__input input" type="email" name="email" id="email" placeholder="Mail..." required>
+              </label>
+              <button class="form__button but" type="submit">
+                Envoyer
+              </button>
+            </form>
+            <h1 class="contacts__title tt-44-37">
+              Remplissez le formulaire et réservez n'importe quelle chambre
+            </h1>
+          </div>
+          <div class="contacts__bottom">
+            <address class="contacts__address">
+              <ul class="contacts__list">
+                <li class="contacts__item tx-17">
+                  <span>
+                    Adresse
+                  </span>
+                  30 Av. George V, Paris, France
+                </li>
+                <li class="contacts__item tx-17">
+                  <span>
+                    Téléphone
+                  </span>
+                  <a href="tel:+33181721000">
+                    +33 1 81 72 10 00
+                  </a>
+                </li>
+                <li class="contacts__item tx-17">
+                  <span>
+                    Mail
+                  </span>
+                  <a href="mailto:paris@bulgarihotels.fr">
+                    paris@bulgarihotels.fr
+                  </a>
+                </li>
+              </ul>
+            </address>
+            <div class="contacts__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.4822019704!2d2.2988864769819823!3d48.86808350002369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc2bd31dc81%3A0xa47260544cfc7fdb!2s30%20Av.%20George%20V%2C%2075008%20Paris%2C%20France!5e0!3m2!1sen!2sen!4v1696832952605!5m2!1sen!2sen"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

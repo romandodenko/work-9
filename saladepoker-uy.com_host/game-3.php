@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Simuladores de juegos de azar sin posibilidad de ganar dinero real">
+  <meta property="og:site_name"
+    content="Los simuladores de juego, que no brindan la oportunidad de ganar dinero real, son una forma popular de entretenimiento entre los entusiastas del juego, ya que brindan la oportunidad de experimentar las mismas sensaciones.">
+  <meta name="twitter:title" content="Simuladores de juegos de azar sin posibilidad de ganar dinero real">
+  <meta name="twitter:description"
+    content="Los simuladores de juego, que no brindan la oportunidad de ganar dinero real, son una forma popular de entretenimiento entre los entusiastas del juego, ya que brindan la oportunidad de experimentar las mismas sensaciones.">
+  <meta name="description"
+    content="Los simuladores de juego, que no brindan la oportunidad de ganar dinero real, son una forma popular de entretenimiento entre los entusiastas del juego, ya que brindan la oportunidad de experimentar las mismas sensaciones.">
+  <title>Simuladores de juegos de azar sin posibilidad de ganar dinero real</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Tahoma-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start slot -->
+      <section class="slot rd-upload">
+        <div class="container">
+          <h1 class="slot__title tt-53-40">
+            Bunny Kingdom
+          </h1>
+          <div class="slot__texts">
+            <p class="slot__text tx-17">
+              Bunny Kingdom es un juego de mesa que no te permite ganar dinero real. Tiene una alta valoración entre los amantes de los juegos de mesa porque es seguro y legal para todos los grupos de edad. 
+            </p>
+            <p class="slot__text tx-17">
+              Desarrollado por IELLO, Bunny Kingdom invita a los jugadores a asumir el papel de reyes conejitos de cuentos de hadas mientras construyen sus reinos en el tablero de juego. El objetivo del juego es conseguir tantos puntos como sea posible colocando edificios, recursos y liebres en el territorio del reino.
+            </p>
+            <p class="slot__text tx-17">
+              Los jugadores colocan sus liebres en varias áreas del tablero de juego para obtener recursos y expandir su territorio. Los edificios construidos en el territorio otorgan ciertas bonificaciones y puntos. También hay un elemento de estrategia, ya que los jugadores deben decidir cuándo y cómo construir edificios para maximizar sus capacidades y limitar el desarrollo de otros jugadores.
+            </p>
+            <p class="slot__text tx-17">
+              Bunny Kingdom es un juego altamente valorado y valorado, ya que ofrece una jugabilidad interesante y crea un espíritu competitivo entre los jugadores. Es seguro para jugar en familia y adecuado para jugadores de cualquier edad.
+            </p>
+          </div>
+          <ul class="slot__images">
+            <li class="slot__image">
+              <img src="." data-rd-image="./img/top-3.jpg" data-rd-image-webp="./img/top-3.webp" width="336"
+                height="336" alt="Bunny Kingdom">
+            </li>
+            <li class="slot__image">
+              <img src="." data-rd-image="./img/top-3-2.jpg" data-rd-image-webp="./img/top-3-2.webp" width="336"
+                height="336" alt="Bunny Kingdom">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end slot -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

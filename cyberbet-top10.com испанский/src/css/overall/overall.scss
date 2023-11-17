@@ -1,0 +1,246 @@
+:root {
+  // Шрифты
+  --font-main: "PlayfairDisplay", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1120px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #2C2828; // бекграунд страницы
+  --pink: #CD997B;
+  --white: #ffffff;
+  --black: #2c2828;
+  --d-white: #f5f5f5;
+  --gray: #ededed;
+
+  --hover: #121111; // цвет при ховере
+  --active: #121111; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 100px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.webp {
+  & .hero {
+    background-image: url(../../img/hero.webp);
+  }
+
+  & .rest {
+    background-image: url(../../img/rest.webp);
+  }
+}
+
+.no-webp {
+  & .hero {
+    background-image: url(../../img/hero.jpg);
+  }
+
+  & .rest {
+    background-image: url(../../img/rest.jpg);
+  }
+}
+
+.tt-64-42 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+
+  @media (max-width: 991px) {
+    font-size: 52px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 42px;
+  }
+}
+
+.tt-53-40 {
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 120%;
+
+  @media (max-width: 991px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+.tt-37-34 {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 140%;
+  text-transform: uppercase;
+
+  @media (max-width: 600px) {
+    font-size: 34px;
+  }
+}
+
+.tt-31-23 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 140%;
+  text-transform: uppercase;
+
+  @media (max-width: 600px) {
+    font-size: 23px;
+  }
+}
+
+.tx-22 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+.tx-17 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.but-58 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 44px;
+  padding: 10px;
+  background-color: var(--black);
+  border: 2px solid transparent;
+  transition: border-color .3s ease-in-out, opacity .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: rgba(255, 255, 255, .4);
+    }
+  }
+
+  &:focus-visible {
+    border-color: rgba(255, 255, 255, .4);
+  }
+
+  &:active {
+    border-color: var(--white);
+    transition-duration: .1s;
+  }
+
+  & svg {
+    display: block;
+    width: 39px;
+    height: 8px;
+    object-fit: contain;
+    object-position: center;
+    fill: var(--white);
+    stroke: var(--white);
+  }
+}
+
+.but-146 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  border-radius: 30px;
+  min-width: 146px;
+  min-height: 46px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--white);
+  background-color: var(--pink);
+  transition: background-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}
+
+.input {
+  display: block;
+  padding: 0 16px;
+  width: 100%;
+  min-height: 58px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--black);
+  border: 2px solid transparent;
+  background-color: var(--gray);
+  transition: border-color .3s ease-in-out;
+
+  &::placeholder {
+    opacity: .5;
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    border-color: var(--hover);
+  }
+
+}

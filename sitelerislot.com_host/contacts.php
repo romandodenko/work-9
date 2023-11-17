@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="Türkiye'deki Adres İstanbul oteli sıralamada en yüksek yerlerden birini işgal ediyor.">
+  <meta property="og:site_name"
+    content="Adres Hotel İstanbul, her biri zevkli bir şekilde dekore edilmiş çeşitli lüks oda ve süitler sunmaktadır. Odalarda modern mobilyalar ve konforlu yataklar bulunmaktadır.">
+  <meta property="og:url" content="sitelerislot.com">
+  <meta property="og:image" content="sitelerislot.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Türkiye'deki Adres İstanbul oteli sıralamada en yüksek yerlerden birini işgal ediyor.">
+  <meta name="twitter:description"
+    content="Adres Hotel İstanbul, her biri zevkli bir şekilde dekore edilmiş çeşitli lüks oda ve süitler sunmaktadır. Odalarda modern mobilyalar ve konforlu yataklar bulunmaktadır.">
+  <meta name="twitter:site" content="sitelerislot.com">
+  <meta name="twitter:image" content="sitelerislot.com/main.png">
+  <meta name="description"
+    content="Adres Hotel İstanbul, her biri zevkli bir şekilde dekore edilmiş çeşitli lüks oda ve süitler sunmaktadır. Odalarda modern mobilyalar ve konforlu yataklar bulunmaktadır.">
+  <title>Türkiye'deki Adres İstanbul oteli sıralamada en yüksek yerlerden birini işgal ediyor.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/PollerOne-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/PTSerifCaption-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./resources/swiper/swiper.css">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script src="./resources/swiper/swiper.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header2.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start contacts -->
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__top">
+            <h1 class="contacts__title tt-67-32">
+              Kişiler
+            </h1>
+            <p class="contacts__text tx-23-20">
+              Hemen bizimle bir oda ayırtın ve en iyi otelde konaklamanın tadını çıkarın
+            </p>
+            <form class="form" action="#!" name="form" autocomplete="off">
+              <div class="form__inputs">
+                <input class="form__input input" type="text" name="text" id="text" placeholder="İsim..." required>
+                <input class="form__input input" type="email" name="email" id="email" placeholder="Posta..." required>
+              </div>
+              <button class="form__button but-167" type="submit">
+                Göndermek
+              </button>
+            </form>
+          </div>
+          <div class="contacts__bottom">
+            <ul class="contacts__list">
+              <li class="contacts__item tx-16">
+                <span>
+                  Posta
+                </span>
+                <a href="mailto:Info.ADISH@addresshotels.com">
+                  Info.ADISH@addresshotels.com
+                </a>
+              </li>
+              <li class="contacts__item tx-16">
+                <span>
+                  Sayı
+                </span>
+                <a href="tel:+902129426666">
+                  +90 212 942 66 66
+                </a>
+              </li>
+              <li class="contacts__item tx-16">
+                <span>
+                  Adres
+                </span>
+                İstanbul, Arnavutköy ilçesi, Tayakadin mahalla, Terminal caddesi, 1
+              </li>
+            </ul>
+            <div class="contacts__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47989.44675719072!2d28.629741891992357!3d41.25792324781842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409ffff72b20b76d%3A0x65d0bafb08c5437e!2zVGF5YWthZMSxbiwgMzQyNzcgQXJuYXZ1dGvDtnkvxLBzdGFuYnVsLCBUw7xya2l5ZQ!5e0!3m2!1sen!2sru!4v1695125011182!5m2!1sen!2sru"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

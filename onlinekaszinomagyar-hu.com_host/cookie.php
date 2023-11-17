@@ -1,0 +1,147 @@
+ <!DOCTYPE html>
+ <html lang="hu">
+
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:type" content="website">
+   <meta property="og:title"
+     content="A magyarországi Mövenpick Balaland Resort az egyik legjobb pihenési és kikapcsolódási hely.">
+   <meta property="og:site_name"
+     content="Vendégeinek a legjobb életkörülményeket, magas szintű szolgáltatást és biztonságot kínálja. A szállodai szobák teljesen felszereltek mindennel, ami a kényelmes tartózkodáshoz szükséges.">
+   <meta name="twitter:title"
+     content="A magyarországi Mövenpick Balaland Resort az egyik legjobb pihenési és kikapcsolódási hely.">
+   <meta name="twitter:description"
+     content="Vendégeinek a legjobb életkörülményeket, magas szintű szolgáltatást és biztonságot kínálja. A szállodai szobák teljesen felszereltek mindennel, ami a kényelmes tartózkodáshoz szükséges.">
+   <meta name="description"
+     content="Vendégeinek a legjobb életkörülményeket, magas szintű szolgáltatást és biztonságot kínálja. A szállodai szobák teljesen felszereltek mindennel, ami a kényelmes tartózkodáshoz szükséges.">
+   <title>A magyarországi Mövenpick Balaland Resort az egyik legjobb pihenési és kikapcsolódási hely.</title>
+   <link rel="shortcut icon" href="./img/favicon.png">
+   <link rel="preload" href="./fonts/SansitaSwashed-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="./fonts/VarelaRound-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="./css/main-min.css">
+   <script defer src="./js/main.js"></script>
+ </head>
+
+ <body>
+   <div class="page">
+     <!-- start header -->
+     <?php
+     include 'header.php';
+     ?>
+     <!-- end header -->
+     <main>
+       <!-- start terms -->
+       <section class="terms">
+         <div class="container">
+           <h1>onlinekaszinomagyar-hu.com cookie-szabályzat</h1>
+
+           <p>Ez a onlinekaszinomagyar-hu.com cookie-kra vonatkozó szabályzata, amely a következő címen érhető el
+             onlinekaszinomagyar-hu.com</p>
+
+           <h2><strong>Mik azok a cookie-k</strong></h2>
+
+           <p>Amint az szinte minden professzionális webhelyen bevett gyakorlat, ez a webhely cookie-kat használ,
+             amelyek kis fájlok
+             amely letöltődik a számítógépére az élmény fokozása érdekében. Ez az oldal leírja, hogy mit
+             információ
+             van nekik
+             összegyűjti, hogyan használjuk, és miért kell néha tárolnunk ezeket a sütiket. Megtesszük
+             is megosztjuk, hogyan tudjuk
+             megakadályozza ezeknek a sütiknek a tárolását, de ez gyengíthet vagy „megtörhet” bizonyos elemeket
+             a weboldalak
+             városok
+             funkciót.</p>
+
+           <h2><strong>Hogyan használjuk a cookie-kat</strong></h2>
+
+           <p>Az alábbiakban ismertetett több okból is használunk cookie-kat. Sajnos a
+             nagy része
+             az esetek az
+             nem az ipar
+             alapértelmezett beállítások a cookie-k letiltására anélkül, hogy teljesen kikapcsolnák a funkciókat és
+             funkciók, mint pl
+             hozzáteszik őket
+             erre az oldalra Javasoljuk, hogy hagyjon minden cookie-t, ha nem biztos benne, hogy
+             szükségük van rájuk ill
+             nem, ha az Ön által használt szolgáltatás nyújtására használják őket.</p>
+
+           <h2><strong>A cookie-k letiltása</strong></h2>
+
+           <p>A böngésző beállításainak módosításával megakadályozhatja a cookie-k telepítését (lásd
+             böngésző súgója
+             nak nek
+             hogyan kell csinálni). Felhívjuk figyelmét, hogy a cookie-k letiltása hatással lesz a működésre
+             erre és még sok másra
+             az Ön által meglátogatott webhelyek. A cookie-k letiltása általában bizonyos funkciókat is letilt
+             és
+             ennek a weboldalnak a funkciói. Ezért nem javasolt a cookie-k letiltása. </p>
+
+           <h2><strong>Általunk beállított információs cookie-k</strong></h2>
+
+           <ul>
+
+             <li>
+               <p>Webhelykonfigurációs cookie-k</p>
+               <p>Annak érdekében, hogy jó élményben legyen része ezen az oldalon, felajánljuk az Ön adatainak
+                 megadásának funkcióját
+                 a webhely működésének beállításait, amikor Ön használja. Hogy emlékezzen a preferenciáira, azok
+                 tennünk kell
+                 cookie-kat, hogy ezeket az információkat minden alkalommal vissza lehessen állítani, amikor
+                 kapcsolatba lép az érintett féllel
+                 a weboldalt
+                 övé
+                 konfigurációt.</p>
+             </li>
+
+           </ul>
+
+           <h2><strong>Harmadik féltől származó cookie-k</strong></h2>
+
+           <p>Egyes speciális esetekben megbízható harmadik felektől származó cookie-kat is használunk. Következő
+             szakasz részleteit
+             milyen harmadik féltől származó cookie-kat találhat ezen a weboldalon.</p>
+
+           <ul>
+
+             <li>
+               <p>Ez a webhely a Google Analytics szolgáltatást használja, amely az egyik leginkább használt és
+                 megbízható.
+                 elemző megoldások a világban
+                 online, mert segít megérteni, hogyan használja az oldalt, és hogyan javíthatjuk az Önét
+                 tapasztalat.
+                 Ezek a cookie-k olyan dolgokat követhetnek nyomon, mint például, hogy mennyi időt tölt a webhelyen
+                 és mely oldalakon
+                 te meglátogatod őket, aztán mi
+                 folytathatja az érdekes tartalom létrehozását.</p>
+               <p>A Google Analytics cookie-kkal kapcsolatos további információkért tekintse meg a hivatalos Google
+                 Analytics oldalt.
+                 A Google Analytics.
+               </p>
+             </li>
+
+           </ul>
+
+           <h2><strong>További információ</strong></h2>
+
+           <p>Reméljük, hogy tisztáztuk a dolgokat, és ahogy korábban említettük, ha van valami
+             Nem vagy biztos benne, hogy szükséged van-e rájuk vagy sem, általában biztonságosabb, ha békén hagyod a
+             sütiket
+             esetén engedélyezve van
+             interakciók
+             a weboldalunkon használt egyik funkcióval.</p>
+
+         </div>
+       </section>
+       <!-- end terms -->
+     </main>
+     <!-- start footer -->
+     <?php
+     include 'footer.php';
+     ?>
+     <!-- end footer -->
+   </div>
+ </body>
+
+ </html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Compra juegos de mesa con licencia de forma segura">
+  <meta property="og:site_name"
+    content="Ofrecemos una amplia gama de juegos de azar de mesa, desde las variantes clásicas hasta las más modernas. Conozca la diversidad del entretenimiento de los juegos de azar.">
+  <meta name="twitter:title" content="Compra juegos de mesa con licencia de forma segura">
+  <meta name="twitter:description"
+    content="Ofrecemos una amplia gama de juegos de azar de mesa, desde las variantes clásicas hasta las más modernas. Conozca la diversidad del entretenimiento de los juegos de azar.">
+  <meta name="description"
+    content="Ofrecemos una amplia gama de juegos de azar de mesa, desde las variantes clásicas hasta las más modernas. Conozca la diversidad del entretenimiento de los juegos de azar.">
+  <title>Compra juegos de mesa con licencia de forma segura</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/PlaypenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <section class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">
+            Nuestros juegos están destinados a un público ADULTO mayor de 18 años. Haga clic en Aceptado para
+            Confirma tu edad.
+          </p>
+          <button class="popup__button">Aceptado</button>
+        </div>
+      </section>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero rd-upload">
+        <div class="container">
+          <h1 class="hero__title tt-52-34">
+            Venta de <span>simuladores</span> de juegos de mesa
+          </h1>
+          <div class="hero__texts">
+            <p class="hero__text tx-24-18">
+              Ofrecemos una amplia gama de juegos de azar de mesa, desde las variantes clásicas hasta las más modernas.
+              Conozca la diversidad del entretenimiento de los juegos de azar.
+            </p>
+          </div>
+          <div class="hero__image">
+            <img src="." data-rd-image="./img/hero.jpg" data-rd-image-webp="./img/hero.webp" width="336" height="336"
+              alt="">
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start info -->
+      <section class="info rd-upload" id="info">
+        <div class="container">
+          <h2 class="info__title tt-42-30">
+            Información adicional
+          </h2>
+          <ul class="info__list">
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-1.svg" data-rd-image-webp="./img/icon-1.svg" width="32"
+                  height="32" alt="Historia y evolución">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Historia y evolución
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    Sumérjase en la historia de cada juego, aprenda cómo han evolucionado con el tiempo y qué cambios
+                    han sufrido.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-2.svg" data-rd-image-webp="./img/icon-2.svg" width="32"
+                  height="32" alt="Reglas detalladas">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Reglas detalladas
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    Disponemos de reglas detalladas de cada juego para ayudarte a entender cómo funcionan.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-3.svg" data-rd-image-webp="./img/icon-3.svg" width="32"
+                  height="32" alt="Estrategias y consejos">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Estrategias y consejos
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    ¿Te interesan las estrategias para jugar? Le ofrecemos consejos útiles de expertos.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-4.svg" data-rd-image-webp="./img/icon-4.svg" width="32"
+                  height="32" alt="Influencia cultural">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Influencia cultural
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    Descubra cómo los juegos de mesa han influido en la cultura y el arte.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-5.svg" data-rd-image-webp="./img/icon-5.svg" width="32"
+                  height="32" alt="Hechos interesantes">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Hechos interesantes
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    Compartimos hechos fascinantes y aspectos interesantes de cada juego.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-6.svg" data-rd-image-webp="./img/icon-6.svg" width="32"
+                  height="32" alt="Reseñas y críticas">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Reseñas y críticas
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    Lea reseñas de juegos nuevos y populares para estar al tanto de las últimas tendencias.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="info__item">
+              <div class="info__icon">
+                <img src="." data-rd-image="./img/icon-7.svg" data-rd-image-webp="./img/icon-7.svg" width="32"
+                  height="32" alt="Demostraciones interactivas">
+              </div>
+              <div class="info__descr">
+                <div class="info__subtitle tx-24-18">
+                  Demostraciones interactivas
+                </div>
+                <div class="info__texts">
+                  <p class="info__text tx-16-14">
+                    Nuestras demostraciones le permiten seguir el juego sin arriesgar dinero.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end info -->
+
+      <!-- start juega -->
+      <section class="juega rd-upload" id="juega">
+        <div class="container">
+          <h2 class="juega__title tt-42-30">
+            Juegos de mesa
+          </h2>
+          <ul class="juega__list">
+            <li class="juega__item juega__item_top">
+              <div class="juega__image">
+                <img src="." data-rd-image="./img/poker-1.jpg" data-rd-image-webp="./img/poker-1.webp" width="336"
+                  height="336" alt="Poker: Maestría y Suerte">
+              </div>
+              <div class="juega__top tx-16-14">
+                Los mejores juegos
+              </div>
+              <div class="juega__descr">
+                <div class="juega__subtitle tx-24-18">
+                  Poker: Maestría y Suerte
+                </div>
+                <div class="juega__texts">
+                  <p class="juega__text tx-16-14">
+                    El simulador de póquer más emocionante! Aquí podrás sumergirte en el apasionante mundo de los juegos
+                    de cartas y perfeccionar tus habilidades en Texas Hold'em, Omaha y muchas otras formas de póquer...
+                  </p>
+                </div>
+                <a class="juega__link but" href="game-1.php">
+                  Más detalles
+                </a>
+              </div>
+            </li>
+            <li class="juega__item juega__item_top">
+              <div class="juega__image">
+                <img src="." data-rd-image="./img/bacara-1.jpg" data-rd-image-webp="./img/bacara-1.webp" width="336"
+                  height="336" alt="Simulador de bacará">
+              </div>
+              <div class="juega__top tx-16-14">
+                Los mejores juegos
+              </div>
+              <div class="juega__descr">
+                <div class="juega__subtitle tx-24-18">
+                  Simulador de bacará
+                </div>
+                <div class="juega__texts">
+                  <p class="juega__text tx-16-14">
+                    Los simuladores de bacará ofrecen gráficos y animaciones de calidad para crear una atmósfera de
+                    juego realista. Las cartas y la mesa se muestran en alta resolución, y las acciones del crupier y
+                    del jugador se visualizan con efectos llamativos...
+                  </p>
+                </div>
+                <a class="juega__link but" href="game-2.php">
+                  Más detalles
+                </a>
+              </div>
+            </li>
+            <li class="juega__item juega__item_top">
+              <div class="juega__image">
+                <img src="." data-rd-image="./img/isla-1.jpg" data-rd-image-webp="./img/isla-1.webp" width="336"
+                  height="336" alt="La isla del tesoro">
+              </div>
+              <div class="juega__top tx-16-14">
+                Los mejores juegos
+              </div>
+              <div class="juega__descr">
+                <div class="juega__subtitle tx-24-18">
+                  La isla del tesoro
+                </div>
+                <div class="juega__texts">
+                  <p class="juega__text tx-16-14">
+                    La isla del tesoro es un juego de mesa desarrollado por Marcel-Henri Kendrew y Luc Bourchel y
+                    publicado por Matagot. El juego es una simulación emocionante y aventurera de la búsqueda de tesoros
+                    en una isla...
+                  </p>
+                </div>
+                <a class="juega__link but" href="game-3.php">
+                  Más detalles
+                </a>
+              </div>
+            </li>
+            <li class="juega__item">
+              <div class="juega__image">
+                <img src="." data-rd-image="./img/carcasonne-1.jpg" data-rd-image-webp="./img/carcasonne-1.webp"
+                  width="336" height="336" alt="Carcassonne: Maestro de Estrategias">
+              </div>
+              <div class="juega__descr">
+                <div class="juega__subtitle tx-24-18">
+                  Carcassonne: Maestro de Estrategias
+                </div>
+                <div class="juega__texts">
+                  <p class="juega__text tx-16-14">
+                    El simulador "Carcassonne: Maestro de Estrategias" le permite convertirse en un maestro virtual de
+                    los juegos de estrategia de tablero, desde el ajedrez hasta el Carcassonne, y competir contra la
+                    inteligencia artificial u otros jugadores.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="juega__item">
+              <div class="juega__image">
+                <img src="." data-rd-image="./img/domino-1.jpg" data-rd-image-webp="./img/domino-1.webp" width="336"
+                  height="336" alt="Domino Master">
+              </div>
+              <div class="juega__descr">
+                <div class="juega__subtitle tx-24-18">
+                  Domino Master
+                </div>
+                <div class="juega__texts">
+                  <p class="juega__text tx-16-14">
+                    "Domino Master" es un juego de simulación que te lleva al ambiente de jugar al dominó con amigos u
+                    oponentes
+                    informáticos, proporcionando muchas reglas y variaciones diferentes.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="juega__item">
+              <div class="juega__image">
+                <img src="." data-rd-image="./img/carcasonne-1.jpg" data-rd-image-webp="./img/carcasonne-1.webp"
+                  width="336" height="336" alt="Deck of Card Games">
+              </div>
+              <div class="juega__descr">
+                <div class="juega__subtitle tx-24-18">
+                  Deck of Card Games
+                </div>
+                <div class="juega__texts">
+                  <p class="juega__text tx-16-14">
+                    "Deck of Card Games" es un lugar virtual donde puedes disfrutar de una gran selección de juegos de
+                    cartas como
+                    el póquer, el blackjack y el tonto, con diferentes niveles de dificultad y variaciones de reglas.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end juega -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

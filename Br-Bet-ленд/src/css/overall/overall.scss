@@ -1,0 +1,134 @@
+:root {
+  // Шрифты
+  --font-main: "Lato", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1440px; // ширина контейнера
+  --container-step: 23px; // падинги по бокам на пк
+  --container-step-tablet: 23px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #1a5f7c; // бекграунд страницы
+  --white: #ffffff;
+  --l-blue: #67c0d9;
+  --d-blue: #1e3a4b;
+  --orange: #d9572b;
+  --shadow: 0px 4px 0px 0px #b04723;
+  --red: #c32123;
+
+  --hover: 0px 4px 0px 0px #ffffff; // цвет при ховере
+  --active: 0px 4px 0px 0px #ffffff; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 374px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tx106 {
+  font-weight: 700;
+  font-size: 106px;
+  color: var(--white);
+  line-height: 1;
+  text-shadow: 0px 5px 0px  var(--red);
+}
+
+.tx28 {
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+.tx20 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.tx14 {
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border-radius: 5px;
+  min-width: 317px;
+  min-height: 58px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--orange);
+  box-shadow: var(--shadow);
+  transition: box-shadow .3s ease-in-out;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    min-width: 0;
+  }
+  @media (max-width: 374px) {
+    font-size: 18px;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      box-shadow: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    box-shadow: var(--hover);
+  }
+
+  &:active {
+    box-shadow: var(--active);
+    transition-duration: .1s;
+  }
+}

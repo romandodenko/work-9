@@ -1,0 +1,203 @@
+:root {
+  // Шрифты
+  --font-main: "Lexend", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1400px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #ECEFF2; // бекграунд страницы
+  --d-blue: #00103B;
+  --l-blue: #5EBCED;
+  --dark: #232323;
+  --dark2: #171717;
+  --white: #ffffff;
+  --background-benefits: rgba(92, 186, 236, 0.11);
+
+  --hover: #7B68EE; // цвет при ховере
+  --active: #4169E1; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+
+  &_change {
+    & .header {
+      background-color: var(--d-blue);
+    }
+  }
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 171px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 100px;
+    }
+
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tt-80-32 {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 116%;
+
+  @media (max-width: 1440px) {
+    font-size: 62px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 48px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 32px;
+  }
+}
+
+.tt-42-28 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 116%;
+
+  @media (max-width: 991px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.tx-25-20 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1;
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tx-20-18 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.tx-16-14 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-15-13 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.logo {
+  display: block;
+  width: 215px;
+  height: 55px;
+  flex-shrink: 0;
+
+  @media (max-width: 1220px) {
+    width: 155px;
+    height: 40px;
+  }
+
+  @media (max-width: 600px) {
+    width: 124px;
+    height: 31px;
+  }
+
+  &_size {
+    width: 335px;
+    height: 85px;
+
+    @media (max-width: 1440px) {}
+
+    @media (max-width: 1220px) {
+      width: 270px;
+      height: 69px;
+    }
+
+    @media (max-width: 991px) {
+      width: 240px;
+      height: 61px;
+    }
+
+    @media (max-width: 600px) {
+      width: 180px;
+      height: 46px;
+    }
+  }
+
+  & img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
